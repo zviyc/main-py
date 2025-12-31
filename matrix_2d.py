@@ -38,14 +38,3 @@ def matrix_2d(matrix: list[list[int]]):
     ]
 
     return calculation
-
-if __name__ == "__main__":
-    from json import dumps
-    __: object = matrix_2d([
-        [1, 4, 7],
-        [2, 5, 8],
-        [3, 6, 9]
-    ])
-
-    # Output 
-    print(dumps(__, indent=4, sort_keys=True))
